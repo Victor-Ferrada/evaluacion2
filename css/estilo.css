@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 0;
 }
 /*----------------Estilos Base------------------*/
@@ -37,9 +37,9 @@ h1,h2,h3{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: #000000;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Bebas Neue', cursive;
         
 }
 .main-header__contactInfo__phone{
@@ -137,6 +137,9 @@ h1,h2,h3{
     background-color: #DE423A;
     
 }
+.mostrar{
+    height: 210px;
+}
 /*----------------Estilos Banner------------------*/
 
 .banner{
@@ -200,9 +203,9 @@ h1,h2,h3{
 	background: #222;
 	color: #fff;
 	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: .8em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
 }
 .copy{
 	text-align: center;
@@ -223,11 +226,93 @@ h1,h2,h3{
 	right: 5px;
 }
 
+/*----------------Quienes------------------*/
+main {
+	min-height: 100vh; /* Esto hará que el elemento tenga al menos la altura de la ventana del navegador */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/madera.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /* Fija la imagen de fondo en la ventana del navegador */
+	padding-top: 70px; /* Crea un espacio inicial de 50px */
+	padding-bottom: 70px;
+}
+
+.bienvenido {
+	margin-top: 50px; /* Mueve el contenido de .bienvenido hacia abajo */
+	background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de transparencia */
+
+}
+
+.container2 {
+	width: 90%;
+	margin: auto;
+	margin-left: auto;
+
+}
+
+.titulo2{
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+}
+
+.cuerpo2{
+	color: #fff;
+	font-size: 30px;
+}
+
+.blanco{
+	font-size: 25px;
+	color: #fff;
+}
+
+#carouselExampleCaptions {
+	background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de transparencia */
+	border: 25px solid rgba(0, 0, 0, 0.0); /* Borde oscuro y semi-transparente */
+	width: 70%; /* Ajusta el ancho del carrusel al 50% del ancho de su contenedor */
+	height: 50%; /* Ajusta la altura del carrusel al 50% de la altura de su contenedor */
+	margin: auto; /* Centra el carrusel en su contenedor */
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.mi-carrusel img {
+	max-width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del carrusel */
+	max-height: 100%; /* Asegura que la imagen ocupe el 100% de la altura del carrusel */
+	object-fit: contain; /* Esto asegura que las imágenes se redimensionen para ajustarse al contenedor sin recortarlas */
+
+}
+
+
+
+
+
+/* main .carousel {
+	width: 80%; 
+	margin: auto; 
+}
+
+.carousel-inner {
+    width: 50%;
+    margin-top: 100px;
+
+
+    border-radius: 15px; 
+}
+
+.carousel-inner img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+} */
+
+
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:480px){
 	.logo{
-		color: #fff;
+		color: #ffffff;
 		
 	}
 	.main-header__contactInfo{
@@ -248,6 +333,7 @@ h1,h2,h3{
 	}
 	.banner__content{
 		font-size:1.5em;
+		margin-top: 4px;
 	}
 	.column--50{
 		width: 49%;
@@ -286,8 +372,10 @@ h1,h2,h3{
     	padding: 0px;
 	}
 	
+	
 	.banner__content{
 		font-size:2.5em;
+		margin-top: 70px;
 	}
 	
 	.icon-menu{
@@ -318,5 +406,6 @@ h1,h2,h3{
 	.group__title{
 		font-size: 2.5em;
 	}
+
 }
 

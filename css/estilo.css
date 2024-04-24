@@ -344,6 +344,20 @@ main {
 	.main-footer .container--flex{
 		align-items: flex-start;
 	}
+
+
+	.titulo2 {
+        font-size: 5px; /* Reduce el tamaño de la fuente para pantallas pequeñas */
+    }
+
+    .cuerpo2 {
+        font-size: 5px; /* Reduce el tamaño de la fuente para pantallas pequeñas */
+    }
+
+    #carouselExampleCaptions {
+        width: 30%; /* Hace que el carrusel ocupe todo el ancho de la pantalla */
+        height: auto; /* Permite que la altura del carrusel se ajuste automáticamente */
+    }
 	
 	
 }
@@ -406,6 +420,19 @@ main {
 	.group__title{
 		font-size: 2.5em;
 	}
+
+	.titulo2 {
+        font-size: 40px; /* Reduce el tamaño de la fuente para pantallas medianas */
+    }
+
+    .cuerpo2 {
+        font-size: 25px; /* Reduce el tamaño de la fuente para pantallas medianas */
+    }
+
+    #carouselExampleCaptions {
+        width: 60%; /* Hace que el carrusel ocupe el 90% del ancho de la pantalla */
+        height: auto; /* Permite que la altura del carrusel se ajuste automáticamente */
+    }
 
 }
 
